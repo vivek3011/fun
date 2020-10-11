@@ -1,0 +1,51 @@
+*{  box-sizing: border-box;
+    background-color: cornflowerblue;
+    border: 10px  black;
+    position: relative;
+}
+#one{
+    position: absolute;
+  
+
+    background-color: crimson;
+    border: 5px black;
+
+}
+
+@media (min-width:992px){
+    .col-lg-4{
+    border: 5px solid white;
+    
+    
+    
+    }
+    .col-lg-4{
+    width: 33%;
+    }
+    }
+    
+    @media (min-width:768px) and (max-width:991px){
+    .col-md-6,.col-md-1{
+    border: 5px solid white;
+    
+    
+    
+    }
+    .col-md-6{
+    width: 50%;
+    }
+    .col-md-1{
+    width: 100%;
+    }
+    }
+    
+    @media (max-width:767px){
+    .col-sm-1{
+    border: 5px solid white;
+    
+    
+    }
+    .col-sm-1{
+    width: 100%;
+    }
+    }
